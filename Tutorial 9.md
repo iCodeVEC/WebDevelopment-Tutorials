@@ -1,12 +1,12 @@
-#JavaScript Dates
+# JavaScript Dates
 The Date object lets you work with dates (years, months, days, hours, minutes, seconds, and milliseconds).
-#JavaScript Date Formats
+# JavaScript Date Formats
 A JavaScript date can be written as a string<br>
 <b>Mon Mar 06 2017 21:56:41 GMT+0530 (India Standard Time)</b><br>
 or as Number<br>
 <b>1488817601353</b><br>
 Dates written as numbers, specifies the number of milliseconds since January 1, 1970, 00:00:00.
-##Displaying Dates
+## Displaying Dates
 In this tutorial we use a script to display dates inside a `<p>` element with `id="demo"`
 ## Example Program
 ```
