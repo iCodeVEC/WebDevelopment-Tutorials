@@ -2,7 +2,7 @@
 CSS refers to <b>C</b>ascading <b>S</b>tyle <b>S</b>heets.<br>
 CSS is a language that describes the style of an HTML document.<br>
 CSS describes how HTML elements should be displayed.
-##Example Program
+## Example Program
 ```
 <!DOCTYPE html>
 <html>
@@ -47,7 +47,7 @@ The selector points to the HTML element you want to style.<br>
 The declaration block contains one or more declarations separated by semicolons.<br>
 Each declaration includes a CSS property name and a value, separated by a colon.<br>
 A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.<br>
-##Example Program
+## Example Program
 ```
 <!DOCTYPE html>
 <html>
@@ -269,7 +269,7 @@ The style attribute can contain any CSS property.
 </body>
 </html>
 ```
-#CSS Navigation Bars
+# CSS Navigation Bars
 Having easy-to-use navigation is important for any web site.<br>
 With CSS you can transform boring HTML menus into good-looking navigation bars.<br>
 <b>Navigation Bar = List of Links</b><br>
