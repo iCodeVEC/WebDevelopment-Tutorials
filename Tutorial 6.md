@@ -1,6 +1,6 @@
 # CSS-BOX MODEL
-##CSS box model-basic concepts and properties
-## Example Program
+## CSS box model-basic concepts and properties
+### Example Program
 ```
 <html>
 <head>
@@ -20,7 +20,7 @@ The total width of this element is also 250px.</div>
 </body>
 </html>
 ```
-#Box model shorthand properties
+# Box model shorthand properties
 <b>Property<br>
 1.padding-{top,right,bottom,left}<br>
 2.border-{top,right,bottom,left}-width<br>
@@ -51,7 +51,7 @@ The total width of this element is also 250px.</div>
 <td>Assign first value to associated top property,second to right,third to bottom and fourth to left</td>
 </tr>
 </table>
-##Box model shorthand properties-example
+## Box model shorthand properties-example
 ```
 Padding:30px is equivalent to four declaration
 Padding-top:30px;
@@ -64,7 +64,7 @@ Margin-right:45px
 Margin-left:45px
 Margin-bottom:30px
 ```
-#Box Model-Background Colors and Images
+# Box Model-Background Colors and Images
 ```
 body
 {
@@ -81,27 +81,27 @@ The image is tiled (repeated) to fill the area <br>
 <b>round:</b><br> 
 The image is tiled (repeated) to fill the area.If it does not fill the area with a whole number of tiles, 
 the image is rescaled so it fits.
-#CSS Positioning
-##Positioning
+# CSS Positioning
+## Positioning
 The CSS positioning properties allow you to position an element. It can also place an element behind another, 
 and specify what should happen when an element's content is too big.
 Elements can be positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. 
 They also work differently depending on the positioning method.
 There are four different positioning methods.
-##Static Positioning
+## Static Positioning
 HTML elements are positioned static by default. A static positioned element is always positioned according to the normal flow of the page.
 Static positioned elements are not affected by the top, bottom, left, and right properties.
-##Float Positioning
+## Float Positioning
 With CSS float, an element can be pushed to the left or right, allowing other elements to wrap around it.
 Float is very often used for images, but it is also useful when working with layouts.
-##Fixed positioning
+## Fixed positioning
 This type of positioning is fairly rare but certainly has its uses. A fixed position element is positioned relative to the viewport, or the browser window itself.
-##Relative Positioning
+## Relative Positioning
 A relative positioned element is positioned relative to its normal position. 
 The content of relatively positioned elements can be moved and overlap other elements, but the reserved space for the element is still preserved in the normal flow.
-##Absolute Positioning
+## Absolute Positioning
 Absolute positioning offers total control over the placement of boxes on the canvas.
-##Example Program
+### Example Program
 ```
 <html>
 <head>
@@ -128,7 +128,7 @@ left:20px;
 </body>
 </html>
 ```
-##Example Program
+### Example Program
 ```
 <html>
 <head>
@@ -157,11 +157,11 @@ This is some text. This is some text. This is some text.
 </body>
 </html>
 ```
-##Positioning Related Properties
+## Positioning Related Properties
 The z-index property specifies the stack order of an element.<br>
 An element with greater stack order is always in front of an element with a lower stack order.<br>
 <b>NOTE:</b> z-index only works on positioned elements (position:absolute, position:relative, or position:fixed).
-##Example Program
+### Example Program
 ```
 <!DOCTYPE html>
 <html>
